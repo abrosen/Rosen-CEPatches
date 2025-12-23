@@ -21,7 +21,7 @@
                 <li Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[defName="CE_Gun_DoubleBadger"]/description</xpath>
 					<value>
-						<description>>Ancient combination rifle, with both a rifled and smoothbore barrel at extremely small calibers.  Often issued to pilots in case of a crash in the wilderness due to its light weight.</description>
+						<description>Ancient combination rifle, with both a rifled and smoothbore barrel present at extremely small calibers.  Often issued to pilots in case of a crash in the wilderness due to its light weight.</description>
 					</value>
 				</li>
                 <li Class="PatchOperationReplace">
