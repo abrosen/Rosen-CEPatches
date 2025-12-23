@@ -16,12 +16,12 @@
 		</li>
 	  </modDependencies>
     <loadAfter>
-      <li>CETeam.CombatExtended</li>
-		  <li>CETeam.CombatExtendedGuns</li>
-		  <li>CETeam.CombatExtendedArmors</li>
-      <li>CETeam.CombatExtendedArmory</li>
-      <li>CETeam.CombatExtendedMelee</li>
-      <li>CETeam.CombatExtendedAttachments</li>
-      <li>Rosalina.Mating.Press</li>
+		<li>CETeam.CombatExtended</li>
+		<li>CETeam.CombatExtendedGuns</li>
+		<li>CETeam.CombatExtendedArmors</li>
+		<li>CETeam.CombatExtendedArmory</li>
+		<li>CETeam.CombatExtendedMelee</li>
+		<li>CETeam.CombatExtendedAttachments</li>
+		<li>Rosalina.Mating.Press</li>
     </loadAfter>
 </ModMetaData>
