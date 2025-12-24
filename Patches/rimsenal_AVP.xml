@@ -109,6 +109,26 @@
 						</statBases>
 					</value>
 				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Gun_AutomaticRifle"]/verbs</xpath>
+					<value>
+						<verbs>
+							<li Class="CombatExtended.VerbPropertiesCE">
+								<recoilAmount>1.38</recoilAmount>
+								<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+								<hasStandardCommand>true</hasStandardCommand>
+								<defaultProjectile>Bullet_3006Springfield_FMJ</defaultProjectile>
+								<warmupTime>1.55</warmupTime>
+								<burstShotCount>6</burstShotCount>
+								<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+								<range>55</range>
+								<soundCast>Shot_CE_BattleRifle</soundCast>
+								<soundCastTail>GunTail_Medium</soundCastTail>
+								<muzzleFlashScale>9</muzzleFlashScale>
+							</li>
+						</verbs>
+					</value>
+				</li>
 				<li Class="PatchOperationRemove">
 					<xpath>Defs/ThingDef[defName="Bow_Compound"]</xpath>
 				</li>

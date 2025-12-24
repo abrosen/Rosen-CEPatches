@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Rimsenal Faction Pack - Spacer</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+                <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Gun_RSBattleRifle"]/verbs</xpath>
+					<value>
+						<verbs>
+							<li Class="CombatExtended.VerbPropertiesCE">
+								<recoilAmount>0.92</recoilAmount>
+								<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+								<hasStandardCommand>true</hasStandardCommand>
+								<defaultProjectile>Bullet_277Fury_FMJ</defaultProjectile>
+								<warmupTime>0.9</warmupTime>
+								<range>62</range>
+								<burstShotCount>6</burstShotCount>
+								<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+								<soundCast>RS_ShotBattleRifle</soundCast>
+								<soundCastTail>GunTail_Heavy</soundCastTail>
+								<muzzleFlashScale>9</muzzleFlashScale>
+							</li>
+						</verbs>
+					</value>
+				</li>
+            </operations>
+		</match>
+	</Operation>
+</Patch>

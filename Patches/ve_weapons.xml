@@ -26,6 +26,12 @@
 						</verbs>
 					</value>
 				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="VWE_Gun_ServiceRifle"]/label</xpath>
+					<value>
+						<label>militia carbine</label>
+					</value>
+				</li>
             </operations>
         </match>
     </Operation>
