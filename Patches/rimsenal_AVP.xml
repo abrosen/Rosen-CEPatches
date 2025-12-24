@@ -12,6 +12,12 @@
 						<label>carbine (compact)</label>
 					</value>
 				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Apparel_TacVest"]/label</xpath>
+					<value>
+						<label>tactical armor</label>
+					</value>
+				</li>
 				<li Class="PatchOperationRemove">
 					<xpath>Defs/ThingDef[defName="Gun_MarksmanRifle"]</xpath>
 				</li>
