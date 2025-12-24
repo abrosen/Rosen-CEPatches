@@ -27,6 +27,44 @@
 					<success>Always</success>
 					<xpath>Defs/StyleCategoryDef/thingDefStyles/li[thingDef="Gun_RSAMRifle"]</xpath>
 				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="Gun_ChargeSidearm"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<success>Always</success>
+					<xpath>Defs/StyleCategoryDef/thingDefStyles/li[thingDef="Gun_ChargeSidearm"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="Gun_ScatterCharger"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<success>Always</success>
+					<xpath>Defs/StyleCategoryDef/thingDefStyles/li[thingDef="Gun_ScatterCharger"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="Gun_ChargeDriver"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<success>Always</success>
+					<xpath>Defs/StyleCategoryDef/thingDefStyles/li[thingDef="Gun_ChargeDriver"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="Gun_AssaultCharger"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<success>Always</success>
+					<xpath>Defs/StyleCategoryDef/thingDefStyles/li[thingDef="Gun_AssaultCharger"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="Gun_BurstCharger"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<success>Always</success>
+					<xpath>Defs/StyleCategoryDef/thingDefStyles/li[thingDef="Gun_BurstCharger"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="Gun_FragcatRifle"]</xpath>
+				</li>
 
 				<!-- We are effectively making an M7 here, with the correct weight.
 				I started by changing the ammo to 277Fury, then noticed it had better AP than the 762mm.
