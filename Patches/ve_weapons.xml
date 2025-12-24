@@ -32,6 +32,12 @@
 						<label>militia carbine</label>
 					</value>
 				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="VWE_Gun_Carbine"]/label</xpath>
+					<value>
+						<label>bullpup carbine</label>
+					</value>
+				</li>
             </operations>
         </match>
     </Operation>

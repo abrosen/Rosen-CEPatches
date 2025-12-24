@@ -6,12 +6,6 @@
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
-                <li Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="Gun_RSCarbine"]/label</xpath>
-					<value>
-						<label>carbine (compact)</label>
-					</value>
-				</li>
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[defName="Apparel_TacVest"]/label</xpath>
 					<value>

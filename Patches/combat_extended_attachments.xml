@@ -9,7 +9,7 @@
                 <li Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[defName="CE_Gun_AKMGL"]/label</xpath>
 					<value>
-						<label>grenadier service rifle</label>
+						<label>grenadier militia rifle</label>
 					</value>
 				</li>
                 <li Class="PatchOperationReplace">
