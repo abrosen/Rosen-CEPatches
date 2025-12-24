@@ -1,5 +1,7 @@
 # Rosen-CEPatches
 
+This is my personal set of patches.  Feel free to use them yourself.
+
 - CE Attachments
   - Generic names to match Generic Ammo Experience (done)
   - Look at adjusting stats to match VE Weapons
