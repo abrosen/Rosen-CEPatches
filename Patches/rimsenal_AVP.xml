@@ -29,7 +29,7 @@
 				</li>
 
 				<!-- We are effectively making an M7 here, with the correct weight.
-				I started by chaning the ammo to 277Fury, then noticed it had better AP than the 762mm.
+				I started by changing the ammo to 277Fury, then noticed it had better AP than the 762mm.
 				I took most of the stats from the M7, but kept the bulk higher for balance.
 				As it was, there was no reason to use a normal battle rifle, so the changes were needed.-->
 				<li Class="PatchOperationReplace">
