@@ -13,4 +13,4 @@
 - Biotech
   - Scyther changed to 1 bandwidth
 - VE Weapons
-  - change sounds for battle rifle
+  - change sounds for battle rifle (done)
