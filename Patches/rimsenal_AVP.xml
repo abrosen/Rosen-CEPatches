@@ -3,7 +3,6 @@
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Rimsenal - Augmented Vanilla Pack</li>
-			<li>Vanilla Weapons Expanded</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>

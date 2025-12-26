@@ -3,7 +3,6 @@
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>ATH's style Draconic</li>
-			<li>Combat Extended Guns</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
