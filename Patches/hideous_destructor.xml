@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Hideous Destructor - 4.26mm Weapons</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+                <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="HIDGun_ZM66AssaultRifle"]/label</xpath>
+					<value>
+						<label>caseless assault rifle</label>
+					</value>
+				</li>
+                <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="HIDGun_ZM66AssaultRifle"]/description</xpath>
+					<value>
+						<description>A very lightweight select-fire weapon that fires up to 2100 rounds per minute. As a refinement of the principles behind the old 5.56 NATO, the 4.26mm UAC Standard round packs an incredible amount of punch for its size.</description>
+					</value>
+				</li>
+                <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="HIDGun_ZM66AssaultRifle_Semi"]/label</xpath>
+					<value>
+						<label>caseless semiautomatic rifle</label>
+					</value>
+				</li>
+                <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="HIDGun_ZM66AssaultRifle_Semi"]/description</xpath>
+					<value>
+						<description>A very lightweight semiautomatic weapon. As a refinement of the principles behind the old 5.56 NATO, the 4.26mm UAC Standard round packs an incredible amount of punch for its size.</description>
+					</value>
+				</li>
+                 <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="HIDGun_ZM66AssaultRifle_UGL"]/label</xpath>
+					<value>
+						<label>caseless assault rifle (GL)</label>
+					</value>
+				</li>
+                <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="HIDGun_ZM66AssaultRifle_UGL"]/description</xpath>
+					<value>
+						<description>A very lightweight select-fire weapon that fires up to 2100 rounds per minute. As a refinement of the principles behind the old 5.56 NATO, the 4.26mm UAC Standard round packs an incredible amount of punch for its size. This model comes with an underbarrel grenade launcher.</description>
+					</value>
+				</li>
+                <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="HIDGun_Vulcanette"]/label</xpath>
+					<value>
+						<label>caseless minigun</label>
+					</value>
+				</li>
+                <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="HIDGun_Vulcanette"]/description</xpath>
+					<value>
+						<description>A multi-barreled support weapon firing 4.26mm caseless ammunition.</description>
+					</value>
+				</li>
+            </operations>
+		</match>
+	</Operation>
+
+    <Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Hideous Destructor - 7.76mm Weapons</li>
+		</mods>
+        <match Class="PatchOperationSequence">
+			<operations>
+                <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="HIDGun_LiberatorRifle"]/label</xpath>
+					<value>
+						<label>liberator rifle</label>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="HIDGun_LiberatorRifle"]/description</xpath>
+					<value>
+						<description>An extremely durable, almost jam-free long-range automatic rifle chambered for a 7.76mm full-power cased round.</description>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="HIDGun_LiberatorRifle_Semi"]/label</xpath>
+					<value>
+						<label>liberator rifle</label>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="HIDGun_LiberatorRifle_Semi"]/description</xpath>
+					<value>
+						<description>An extremely durable, almost jam-free long-range semiautomatic rifle chambered for a 7.76mm full-power cased round.</description>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="HIDGun_LiberatorRifle_UGL"]/label</xpath>
+					<value>
+						<label>liberator rifle (GL)</label>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="HIDGun_LiberatorRifle_UGL"]/description</xpath>
+					<value>
+						<description>An extremely durable, almost jam-free long-range automatic rifle chambered for a 7.76mm full-power cased round. This model comes with an underbarrel grenade launcher.</description>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="HIDGun_BossRifle"]/label</xpath>
+					<value>
+						<label>boss rifle</label>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="HIDGun_BossRifle"]/description</xpath>
+					<value>
+						<description>An extremely accurate, manual action rifle chambered for a 7.76mm full-power cased round.</description>
+					</value>
+				</li>
+            </operations>
+		</match>
+	</Operation>
+</Patch>

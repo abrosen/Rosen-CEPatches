@@ -12,6 +12,12 @@
 						<label>tactical armor</label>
 					</value>
 				</li>
+				<!--<li class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="Apparel_ProtectiveHelmet"]</xpath>
+				</li>
+				<li class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="Apparel_ProtectiveGear"]</xpath>
+				</li>-->
 				<li Class="PatchOperationRemove">
 					<xpath>Defs/ThingDef[defName="Gun_MarksmanRifle"]</xpath>
 				</li>
@@ -64,6 +70,7 @@
 				<li Class="PatchOperationRemove">
 					<xpath>Defs/ThingDef[defName="Gun_FragcatRifle"]</xpath>
 				</li>
+				
 
 				<!-- We are effectively making an M7 here, with the correct weight.
 				I started by changing the ammo to 277Fury, then noticed it had better AP than the 762mm.
