@@ -12,12 +12,12 @@
 						<label>tactical armor</label>
 					</value>
 				</li>
-				<!--<li class="PatchOperationRemove">
+				<li Class="PatchOperationRemove">
 					<xpath>Defs/ThingDef[defName="Apparel_ProtectiveHelmet"]</xpath>
 				</li>
-				<li class="PatchOperationRemove">
+				<li Class="PatchOperationRemove">
 					<xpath>Defs/ThingDef[defName="Apparel_ProtectiveGear"]</xpath>
-				</li>-->
+				</li>
 				<li Class="PatchOperationRemove">
 					<xpath>Defs/ThingDef[defName="Gun_MarksmanRifle"]</xpath>
 				</li>
@@ -173,7 +173,7 @@
 				<li Class="PatchOperationRemove">
 					<xpath>Defs/ThingDef[defName="Arrow_Compound"]</xpath>
 				</li>
-            </operations>
+			</operations>
 		</match>
 	</Operation>
 </Patch>
