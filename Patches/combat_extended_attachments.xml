@@ -54,6 +54,12 @@
 						<label>survival gun</label>
 					</value>
 				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="CE_Gun_TP_EightyTwo"]/description</xpath>
+					<value>
+						<description>A combination gun created at the behest of an early space explorer who's transport pod landed hundreds of miles off course.  It has three barrels: two that fire 12.5x70mm shotgun shells and one for a 5.45x39mm rifle round, capable of dealing with the bears and wolves of the frozen wilderness.</description>
+					</value>
+				</li>
             </operations>
 		</match>
 	</Operation>

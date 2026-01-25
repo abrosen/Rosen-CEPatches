@@ -15,7 +15,7 @@
                 <li Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[defName="HIDGun_ZM66AssaultRifle"]/description</xpath>
 					<value>
-						<description>A very lightweight select-fire weapon that fires up to 2100 rounds per minute. As a refinement of the principles behind the old 5.56 NATO, the 4.26mm UAC Standard round packs an incredible amount of punch for its size.</description>
+						<description>A very lightweight select-fire weapon that fires up to 2100 rounds per minute. As a refinement of the principles behind the old 5.56 NATO, the 4.26mm UAC Standard round packs an incredible amount of punch for its size.  However, it is notorious for the original ZM66's tendency to cook off rounds under sustained full-auto. It is fixed in this model.</description>
 					</value>
 				</li>
                 <li Class="PatchOperationReplace">
@@ -51,7 +51,7 @@
                 <li Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[defName="HIDGun_Vulcanette"]/description</xpath>
 					<value>
-						<description>A multi-barreled support weapon firing 4.26mm caseless ammunition.</description>
+						<description>While the original ZM66 assault rifle was notorious for its cooking off its 4.26mm caseless ammunition, this Vulcanette minigun sidestepped that issue by adding more barrels.</description>
 					</value>
 				</li>
             </operations>
@@ -73,7 +73,7 @@
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[defName="HIDGun_LiberatorRifle"]/description</xpath>
 					<value>
-						<description>An extremely durable, almost jam-free long-range automatic rifle chambered for a 7.76mm full-power cased round.</description>
+						<description>An extremely durable and reliable long-range automatic rifle chambered for a 7.76mm full-power cased round.  It is quite heavy.</description>
 					</value>
 				</li>
 				<li Class="PatchOperationReplace">
@@ -85,7 +85,7 @@
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[defName="HIDGun_LiberatorRifle_Semi"]/description</xpath>
 					<value>
-						<description>An extremely durable, almost jam-free long-range semiautomatic rifle chambered for a 7.76mm full-power cased round.</description>
+						<description>An extremely durable, almost jam-free long-range semiautomatic rifle chambered for a 7.76mm full-power cased round.  It is quite heavy.</description>
 					</value>
 				</li>
 				<li Class="PatchOperationReplace">
@@ -97,7 +97,7 @@
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[defName="HIDGun_LiberatorRifle_UGL"]/description</xpath>
 					<value>
-						<description>An extremely durable, almost jam-free long-range automatic rifle chambered for a 7.76mm full-power cased round. This model comes with an underbarrel grenade launcher.</description>
+						<description>An extremely durable, almost jam-free long-range automatic rifle chambered for a 7.76mm full-power cased round.  It is quite heavy. This model comes with an underbarrel grenade launcher.</description>
 					</value>
 				</li>
 				<li Class="PatchOperationReplace">
