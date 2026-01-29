@@ -18,6 +18,12 @@
 									<VacuumResistance>0.65</VacuumResistance>
 								</value>
 							</li>
+							<li Class="PatchOperationReplace">
+								<xpath>Defs/ThingDef[defName="OdysseusVacsuit"]/equippedStatOffsets/MoveSpeed</xpath>
+								<value>
+									<MoveSpeed>-0.2</MoveSpeed>
+								</value>
+							</li>
 						</operations>
 					</match>
 				</li>

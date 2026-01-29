@@ -6,8 +6,11 @@
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
-				<li Class="PatchOperationRemove">
-					<xpath>Defs/ThingDef[defName="AX_Gun_GAKxUBS"]</xpath>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="AX_Gun_GAKxUBS"]/label</xpath>
+					<value>
+						<label>combination assault rifle</label>
+					</value>
 				</li>
 				<li Class="PatchOperationRemove">
 					<xpath>Defs/ThingDef[defName="AX_Gun_GAKxFlameblaster"]</xpath>
@@ -18,7 +21,7 @@
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[defName="AX_Gun_FAMAExDartgun"]/label</xpath>
 					<value>
-						<label>combination smg</label>
+						<label>combination SMG</label>
 					</value>
 				</li>
                 <li Class="PatchOperationReplace">
