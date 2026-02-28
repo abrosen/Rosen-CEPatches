@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="HIDGun_ZM66AssaultRifle"]/label</xpath>
+		<value>
+			<label>caseless assault rifle</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="HIDGun_ZM66AssaultRifle"]/description</xpath>
+		<value>
+			<description>A very lightweight select-fire weapon that fires up to 2100 rounds per minute. As a refinement of the principles behind the old 5.56 NATO, the 4.26mm UAC Standard round packs an incredible amount of punch for its size.  However, it is notorious for the original ZM66's tendency to cook off rounds under sustained full-auto. It is fixed in this model.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="HIDGun_ZM66AssaultRifle_Semi"]/label</xpath>
+		<value>
+			<label>caseless semiautomatic rifle</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="HIDGun_ZM66AssaultRifle_Semi"]/description</xpath>
+		<value>
+			<description>A very lightweight semiautomatic weapon. As a refinement of the principles behind the old 5.56 NATO, the 4.26mm UAC Standard round packs an incredible amount of punch for its size.</description>
+		</value>
+	</Operation>
+		<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="HIDGun_ZM66AssaultRifle_UGL"]/label</xpath>
+		<value>
+			<label>caseless assault rifle (GL)</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="HIDGun_ZM66AssaultRifle_UGL"]/description</xpath>
+		<value>
+			<description>A very lightweight select-fire weapon that fires up to 2100 rounds per minute. As a refinement of the principles behind the old 5.56 NATO, the 4.26mm UAC Standard round packs an incredible amount of punch for its size. This model comes with an underbarrel grenade launcher.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="HIDGun_Vulcanette"]/label</xpath>
+		<value>
+			<label>caseless minigun</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="HIDGun_Vulcanette"]/description</xpath>
+		<value>
+			<description>While the original ZM66 assault rifle was notorious for its cooking off its 4.26mm caseless ammunition, this Vulcanette minigun sidestepped that issue by adding more barrels.</description>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="HIDGun_ZM66AssaultRifle"]/verbs</xpath>
+		<value>
+			<verbs>
+				<li Class="CombatExtended.VerbPropertiesCE">
+					<recoilAmount>1.39</recoilAmount>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_426x38mmUACCaseless_HP</defaultProjectile>
+					<burstShotCount>6</burstShotCount>
+					<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+					<warmupTime>1.2</warmupTime>
+					<range>62</range>
+					<soundCast>Shot_AssaultRifle</soundCast>
+					<soundCastTail>HID_GunTail_ClassicHID</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+				</li>
+			</verbs>
+		</value>
+	</Operation>
+
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="HIDGun_ZM66AssaultRifle_Semi"]/verbs</xpath>
+		<value>
+			<verbs>
+				<li Class="CombatExtended.VerbPropertiesCE">
+					<recoilAmount>1.39</recoilAmount>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_426x38mmUACCaseless_HP</defaultProjectile>
+					<warmupTime>1.2</warmupTime>
+					<range>62</range>
+					<soundCast>Shot_AssaultRifle</soundCast>
+					<soundCastTail>HID_GunTail_ClassicHID</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+				</li>
+			</verbs>
+		</value>
+	</Operation>
+
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="HIDGun_ZM66AssaultRifle_UGL"]/verbs</xpath>
+		<value>
+			<verbs>
+				<li Class="CombatExtended.VerbPropertiesCE">
+					<recoilAmount>1.18</recoilAmount>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_426x38mmUACCaseless_FMJ</defaultProjectile>
+					<burstShotCount>6</burstShotCount>
+					<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+					<warmupTime>1.2</warmupTime>
+					<range>62</range>
+					<soundCast>Shot_AssaultRifle</soundCast>
+					<soundCastTail>HID_GunTail_ClassicHID</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+				</li>
+			</verbs>
+		</value>
+	</Operation>
+
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="HIDGun_Vulcanette"]/verbs</xpath>
+		<value>
+			<verbs>
+				<li Class="CombatExtended.VerbPropertiesCE">
+					<recoilAmount>0.84</recoilAmount>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_426x38mmUACCaseless_HP</defaultProjectile>
+					<warmupTime>1.4</warmupTime>
+					<range>62</range>
+					<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+					<burstShotCount>25</burstShotCount>
+					<soundCast>Shot_Minigun</soundCast>
+					<soundCastTail>HID_GunTail_ClassicHID</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<recoilPattern>Mounted</recoilPattern>
+				</li>
+			</verbs>
+		</value>
+	</Operation>
+    
+</Patch>

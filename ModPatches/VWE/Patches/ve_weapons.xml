@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!--Give me back the SMG, Turkler!-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VWE_Gun_SMG"]/label</xpath>
+		<value>
+			<label>SMG</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VWE_Gun_SMG"]/description</xpath>
+		<value>
+			<description>A compact submachine gun. Deadly at close range.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VWE_Gun_SMG"]/graphicData</xpath>
+		<value>
+			<graphicData>
+				<texPath>Things/WeaponRanged/SMG</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				<drawSize>(1,1)</drawSize>
+			</graphicData>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VWE_Gun_SMG"]/statBases</xpath>
+		<value>
+			<statBases>
+				<WorkToMake>13000</WorkToMake>
+				<Mass>2.00</Mass>
+				<Bulk>3.25</Bulk>
+				<SwayFactor>1.75</SwayFactor>
+				<ShotSpread>0.17</ShotSpread>
+				<SightsEfficiency>0.70</SightsEfficiency>
+				<RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+			</statBases>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VWE_Gun_SMG"]/costList</xpath>
+		<value>
+			<costList>
+				<Steel>30</Steel>
+				<Chemfuel>10</Chemfuel>
+				<ComponentIndustrial>3</ComponentIndustrial>
+			</costList>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VWE_Gun_SMG"]/verbs</xpath>
+		<value>
+			<verbs>
+				<li Class="CombatExtended.VerbPropertiesCE">
+					<recoilAmount>1.39</recoilAmount>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>True</hasStandardCommand>
+					<defaultProjectile>Bullet_9x19mmPara_FMJ</defaultProjectile>
+					<burstShotCount>6</burstShotCount>
+					<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+					<warmupTime>0.6</warmupTime>
+					<range>20</range>
+					<soundCast>VWE_Shot_SMG</soundCast>
+					<soundCastTail>GunTail_Light</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+				</li>
+			</verbs>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VWE_Gun_SMG"]/comps</xpath>
+		<value>
+			<comps>
+				<li Class="CombatExtended.CompProperties_AmmoUser">
+					<magazineSize>30</magazineSize>
+					<reloadTime>4</reloadTime>
+					<ammoSet>AmmoSet_9x19mmPara</ammoSet>
+				</li>
+				<li Class="CombatExtended.CompProperties_FireModes">
+					<aiUseBurstMode>true</aiUseBurstMode>
+					<aiAimMode>Snapshot</aiAimMode>
+					<aimedBurstShotCount>3</aimedBurstShotCount>
+				</li>
+			</comps>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VWE_Gun_SMG"]/recipeMaker</xpath>
+		<value>
+			<recipeMaker>
+				<researchPrerequisite>GasOperation</researchPrerequisite>
+				<skillRequirements>
+					<Crafting>6</Crafting>
+				</skillRequirements>
+			</recipeMaker>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VWE_Gun_SMG"]/weaponTags</xpath>
+		<value>
+			<weaponTags>
+				<li>IndustrialGunAdvanced</li>
+				<li>CE_Sidearm</li>
+				<li>CE_OneHandedWeapon</li>
+				<li>CE_AI_AssaultWeapon</li>
+				<li>CE_SMG</li>
+				<li>foo</li>
+			</weaponTags>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="VWE_Gun_SMG"]</xpath>
+		<value>
+			<li Class="CombatExtended.GunDrawExtension">
+				<DrawOffset>-0.05,0.0</DrawOffset>
+			</li>
+		</value>
+	</Operation>
+	<!--seperator-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VWE_Gun_LightSMG"]/label</xpath>
+		<value>
+			<label>light SMG</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VWE_Gun_LightSMG"]/description</xpath>
+		<value>
+			<description>A compact submachine gun. Whilst it doesn't have long range of fire, it deals significant damage in close range.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VWE_Gun_LightSMG"]/graphicData</xpath>
+		<value>
+			<graphicData>
+				<texPath>Things/WeaponRanged/LightSMG</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VWE_Gun_LightSMG"]/statBases</xpath>
+		<value>
+			<statBases>
+				<Mass>3.50</Mass>
+				<RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+				<SightsEfficiency>0.70</SightsEfficiency>
+				<ShotSpread>0.12</ShotSpread>
+				<SwayFactor>3.30</SwayFactor>
+				<Bulk>4.70</Bulk>
+				<WorkToMake>24000</WorkToMake>
+			</statBases>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VWE_Gun_LightSMG"]/costList</xpath>
+		<value>
+			<costList>
+				<Steel>30</Steel>
+				<ComponentIndustrial>3</ComponentIndustrial>
+			</costList>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VWE_Gun_LightSMG"]/verbs</xpath>
+		<value>
+			<verbs>
+				<li Class="CombatExtended.VerbPropertiesCE">
+					<recoilAmount>1.39</recoilAmount>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_9x19mmPara_FMJ</defaultProjectile>
+					<warmupTime>0.6</warmupTime>
+					<range>25</range>
+					<burstShotCount>6</burstShotCount>
+					<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+					<soundCast>VWE_Shot_LightSMG</soundCast>
+					<soundCastTail>GunTail_Light</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+				</li>
+			</verbs>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VWE_Gun_LightSMG"]/comps</xpath>
+		<value>
+			<comps>
+				<li Class="CombatExtended.CompProperties_AmmoUser">
+					<magazineSize>30</magazineSize>
+					<reloadTime>4</reloadTime>
+					<ammoSet>AmmoSet_9x19mmPara</ammoSet>
+				</li>
+				<li Class="CombatExtended.CompProperties_FireModes">
+					<aiAimMode>Snapshot</aiAimMode>
+					<aiUseBurstMode>True</aiUseBurstMode>
+					<aimedBurstShotCount>3</aimedBurstShotCount>
+				</li>
+			</comps>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VWE_Gun_LightSMG"]/recipeMaker</xpath>
+		<value>
+			<recipeMaker>
+				<researchPrerequisite>GasOperation</researchPrerequisite>
+				<skillRequirements>
+					<Crafting>5</Crafting>
+				</skillRequirements>
+				<recipeUsers>
+					<li>TableMachining</li>
+				</recipeUsers>
+			</recipeMaker>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VWE_Gun_LightSMG"]/weaponTags</xpath>
+		<value>
+			<weaponTags>
+				<li>IndustrialGunAdvanced</li>
+				<li>CE_Sidearm</li>
+				<li>CE_OneHandedWeapon</li>
+				<li>CE_AI_AssaultWeapon</li>
+				<li>CE_SMG</li>
+				<li>bar</li>
+			</weaponTags>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VWE_Gun_ServiceRifle"]/label</xpath>
+		<value>
+			<label>militia carbine</label>
+		</value>
+	</Operation>
+
+</Patch>    

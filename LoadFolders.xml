@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<loadFolders>
+	<v1.6>
+		<!-- Core Files -->
+		<li>/</li>
+		<!-- DLC -->
+		<li IfModActive="Ludeon.Rimworld.Royalty">Royalty</li>
+		<!-- Mod Patches -->
+		<li IfModActive="ceteam.combatextendedattachments">ModPatches/CE Attachments</li>
+		<li IfModActiveAll="rosalina.mating.press,shazbot.shazcoldtacgunstyles,vanillaexpanded.vweft">ModPatches/Cold Tactical</li>
+		<li IfModActiveAll="rosalina.mating.press,vanillaexpanded.vwe,ceteam.combatextendedguns">ModPatches/VWE</li>
+		<li IfModActiveAll="ceteam.combatextended,killerbot.hidzm66">ModPatches/HDCaseless</li>
+		<li IfModActiveAll="ceteam.combatextended,killerbot.hidzm7">ModPatches/HDBig</li>
+		<li IfModActiveAll="rosalina.mating.press,ceteam.combatextendedarmors,al9000.milsurp,vanillaexpanded.vappe">ModPatches/MilSurpStyle</li>
+    </v1.6>
+</loadFolders>

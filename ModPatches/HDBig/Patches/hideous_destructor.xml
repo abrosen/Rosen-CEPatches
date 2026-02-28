@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="HIDGun_LiberatorRifle"]/label</xpath>
+		<value>
+			<label>liberator rifle</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="HIDGun_LiberatorRifle"]/description</xpath>
+		<value>
+			<description>An extremely durable and reliable long-range automatic rifle chambered for a 7.76mm full-power cased round.  It is quite heavy.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="HIDGun_LiberatorRifle_Semi"]/label</xpath>
+		<value>
+			<label>liberator rifle (semiauto)</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="HIDGun_LiberatorRifle_Semi"]/description</xpath>
+		<value>
+			<description>An extremely durable, almost jam-free long-range semiautomatic rifle chambered for a 7.76mm full-power cased round.  It is quite heavy.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="HIDGun_LiberatorRifle_UGL"]/label</xpath>
+		<value>
+			<label>liberator rifle (UGL)</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="HIDGun_LiberatorRifle_UGL"]/description</xpath>
+		<value>
+			<description>An extremely durable, almost jam-free long-range automatic rifle chambered for a 7.76mm full-power cased round.  It is quite heavy. This model comes with an underbarrel grenade launcher.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="HIDGun_BossRifle"]/label</xpath>
+		<value>
+			<label>boss rifle</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="HIDGun_BossRifle"]/description</xpath>
+		<value>
+			<description>An extremely accurate, manual action rifle chambered for a 7.76mm full-power cased round.</description>
+		</value>
+	</Operation>
+</Patch>
