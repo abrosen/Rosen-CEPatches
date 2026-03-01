@@ -5,6 +5,7 @@
 		<li>/</li>
 		<!-- DLC -->
 		<li IfModActive="Ludeon.Rimworld.Royalty">Royalty</li>
+		<li IfModActive="Ludeon.Rimworld.Biotech">Biotech</li>
 		<!-- Mod Patches -->
 		<li IfModActive="ceteam.combatextendedattachments">ModPatches/CE Attachments</li>
 		<li IfModActiveAll="rosalina.mating.press,shazbot.shazcoldtacgunstyles,vanillaexpanded.vweft">ModPatches/Cold Tactical</li>
@@ -12,5 +13,12 @@
 		<li IfModActiveAll="ceteam.combatextended,killerbot.hidzm66">ModPatches/HDCaseless</li>
 		<li IfModActiveAll="ceteam.combatextended,killerbot.hidzm7">ModPatches/HDBig</li>
 		<li IfModActiveAll="rosalina.mating.press,ceteam.combatextendedarmors,al9000.milsurp,vanillaexpanded.vappe">ModPatches/MilSurpStyle</li>
+		<li IfModActiveAll="rosalina.mating.press,rimsenal.evp,vanillaexpanded.vwe">ModPatches/Rimsenal AVP</li>
+		<li IfModActive="axon.tacticalnnsforce">ModPatches/Tactical Nonnon</li>
+		<li IfModActiveAll="rimsenal.spacer,rimsenal.evp">ModPatches/Rimsenal Spacer</li>
+		<li IfModActive="kilo.vacslipsuit">ModPatches/Vacslipsuit</li>
+		<li IfModActive="kilo.odysseusvacset">ModPatches/Odysseus</li>
+		<li IfModActive="kriptoner.ex1">ModPatches/Ex1</li>
+		<li IfModActive="keshash.gunvariety.tozchimera">ModPatches/TozChimera</li>
     </v1.6>
 </loadFolders>

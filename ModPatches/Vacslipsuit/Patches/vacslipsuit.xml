@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VacSlipsuit"]/equippedStatOffsets/VacuumResistance</xpath>
+        <value>
+            <VacuumResistance>0.25</VacuumResistance>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VacSlipsuit"]/statBases/Insulation_Cold</xpath>
+        <value>
+            <Insulation_Cold>70</Insulation_Cold>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VacSlipsuit"]/statBases/Insulation_Heat</xpath>
+        <value>
+            <Insulation_Heat>10</Insulation_Heat>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="KidVacSlipsuit"]/equippedStatOffsets/VacuumResistance</xpath>
+        <value>
+            <VacuumResistance>0.25</VacuumResistance>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="KidVacSlipsuit"]/statBases/Insulation_Cold</xpath>
+        <value>
+            <Insulation_Cold>70</Insulation_Cold>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="KidVacSlipsuit"]/statBases/Insulation_Heat</xpath>
+        <value>
+            <Insulation_Heat>10</Insulation_Heat>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Prestige_VacSlipsuit"]/equippedStatOffsets/VacuumResistance</xpath>
+        <value>
+            <VacuumResistance>0.25</VacuumResistance>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Prestige_VacSlipsuit"]/statBases/Insulation_Cold</xpath>
+        <value>
+            <Insulation_Cold>70</Insulation_Cold>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Prestige_VacSlipsuit"]/statBases/Insulation_Heat</xpath>
+        <value>
+            <Insulation_Heat>10</Insulation_Heat>
+        </value>
+    </Operation>
+</Patch>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Apparel_TacVest"]/label</xpath>
+		<value>
+			<label>tactical armor</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Apparel_ProtectiveHelmet"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Apparel_ProtectiveGear"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Gun_MarksmanRifle"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>Defs/StyleCategoryDef/thingDefStyles/li[thingDef="Gun_MarksmanRifle"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Gun_RSAMRifle"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>Defs/StyleCategoryDef/thingDefStyles/li[thingDef="Gun_RSAMRifle"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Gun_ChargeSidearm"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>Defs/StyleCategoryDef/thingDefStyles/li[thingDef="Gun_ChargeSidearm"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Gun_ScatterCharger"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>Defs/StyleCategoryDef/thingDefStyles/li[thingDef="Gun_ScatterCharger"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Gun_ChargeDriver"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>Defs/StyleCategoryDef/thingDefStyles/li[thingDef="Gun_ChargeDriver"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Gun_AssaultCharger"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>Defs/StyleCategoryDef/thingDefStyles/li[thingDef="Gun_AssaultCharger"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Gun_BurstCharger"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>Defs/StyleCategoryDef/thingDefStyles/li[thingDef="Gun_BurstCharger"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Gun_FragcatRifle"]</xpath>
+	</Operation>
+				
+
+		<!-- We are effectively making an M7 here, with the correct weight.
+		I started by changing the ammo to 277Fury, then noticed it had better AP than the 762mm.
+		I took most of the stats from the M7, but kept the bulk higher for balance.
+		As it was, there was no reason to use a normal battle rifle, so the changes were needed.-->
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Gun_RSBattleRifle"]/costList</xpath>
+			<value>
+				<costList>
+					<Steel>50</Steel>
+					<Plasteel>15</Plasteel>
+					<ComponentIndustrial>6</ComponentIndustrial>
+					<Chemfuel>20</Chemfuel>
+				</costList>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Gun_RSBattleRifle"]/verbs</xpath>
+			<value>
+				<verbs>
+					<li Class="CombatExtended.VerbPropertiesCE">
+						<recoilAmount>1.89</recoilAmount>
+						<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>Bullet_277Fury_FMJ</defaultProjectile>
+						<burstShotCount>5</burstShotCount>
+						<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+						<warmupTime>1.0</warmupTime>
+						<range>55</range>
+						<soundCast>RS_ShotBattleRifle</soundCast>
+						<soundCastTail>GunTail_Heavy</soundCastTail>
+						<muzzleFlashScale>3</muzzleFlashScale>
+					</li>
+				</verbs>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Gun_RSBattleRifle"]/comps/li[@Class="CombatExtended.CompProperties_AmmoUser"]/magazineSize</xpath>
+			<value>
+				<magazineSize>20</magazineSize>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Gun_RSBattleRifle"]/comps/li[@Class="CombatExtended.CompProperties_AmmoUser"]/ammoSet</xpath>
+			<value>
+				<ammoSet>
+					<li>AmmoSet_277Fury</li>
+				</ammoSet>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Gun_RSBattleRifle"]/label</xpath>
+			<value>
+				<label>heavy battle rifle</label>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Gun_RSBattleRifle"]/description</xpath>
+			<value>
+				<description>Ancient military battle rifle firing a full-power rifle cartridge, focused on punching through armored infantry.</description>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Gun_RSBattleRifle"]/statBases</xpath>
+			<value>
+				<statBases>
+					<WorkToMake>32000</WorkToMake>
+					<SightsEfficiency>1.1</SightsEfficiency>
+					<ShotSpread>0.11</ShotSpread>
+					<SwayFactor>1.36</SwayFactor>
+					<Bulk>10</Bulk>
+					<Mass>4.46</Mass>
+					<RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
+				</statBases>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Gun_AutomaticRifle"]/verbs</xpath>
+			<value>
+				<verbs>
+					<li Class="CombatExtended.VerbPropertiesCE">
+						<recoilAmount>1.38</recoilAmount>
+						<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>Bullet_3006Springfield_FMJ</defaultProjectile>
+						<warmupTime>1.55</warmupTime>
+						<burstShotCount>6</burstShotCount>
+						<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+						<range>55</range>
+						<soundCast>Shot_CE_BattleRifle</soundCast>
+						<soundCastTail>GunTail_Medium</soundCastTail>
+						<muzzleFlashScale>9</muzzleFlashScale>
+					</li>
+				</verbs>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/ThingDef[defName="Bow_Compound"]</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/ThingDef[defName="Arrow_Compound"]</xpath>
+		</Operation>
+
+</Patch>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="CE_Gun_Krip_AugA3a"]/label</xpath>
+		<value>
+			<label>universal assault rifle</label>
+		</value>
+	</Operation>
+
+    <Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="CE_Gun_Krip_MK23a"]</xpath>
+	</Operation>
+    <Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="CE_Gun_Krip_AMG"]</xpath>
+	</Operation>
+
+    <Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="CE_Gun_Krip_DRDTP"]</xpath>
+	</Operation>
+
+</Patch>
