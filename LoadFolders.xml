@@ -3,6 +3,7 @@
 	<v1.6>
 		<!-- Core Files -->
 		<li>/</li>
+		<li>1.6</li>
 		<!-- DLC -->
 		<li IfModActive="Ludeon.Rimworld.Royalty">Royalty</li>
 		<li IfModActive="Ludeon.Rimworld.Biotech">Biotech</li>
@@ -20,5 +21,6 @@
 		<li IfModActive="kilo.odysseusvacset">ModPatches/Odysseus</li>
 		<li IfModActive="kriptoner.ex1">ModPatches/Ex1</li>
 		<li IfModActive="keshash.gunvariety.tozchimera">ModPatches/TozChimera</li>
+		<li IfModActive="vanillaexpanded.varme">ModPatches/VARME</li>
     </v1.6>
 </loadFolders>
