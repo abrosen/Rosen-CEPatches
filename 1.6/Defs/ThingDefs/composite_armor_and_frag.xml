@@ -3,7 +3,7 @@
 
 	<!-- ==================== Composite Armor ==================== -->
 
-	<ThingDef ParentName="ArmorMachineableBase">
+	<ThingDef ParentName="ArmorMachineableBase" MayRequire="CETeam.CombatExtendedArmors">
 		<defName>Rosen_Apparel_CompositeArmor</defName>
 		<label>composite armor</label>
 		<description>Ceramic armor vest with all the available coverage extension addon parts, covering the user from neck to toe. It's rather heavy, impractical for prolonged use, mainly for turret gunners and entrance teams.</description>
@@ -150,7 +150,7 @@
 		</tradeTags>
 	</ThingDef>
 
-    <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <ThingDef ParentName="ArmorHelmetMakeableBase" MayRequire="CETeam.CombatExtendedArmors">
 		<defName>Rosen_Apparel_HeavyCompositeHelmet</defName>
 		<label>heavy composite helmet</label>
 		<description>A thick, heavy composite helmet with faceshield and a rifle rated forehead plate, worn with a soft armor collar, mainly used by turret gunners.</description>
@@ -359,7 +359,7 @@
 	
 	<!-- ==================== Frag Suit ==================== -->
 
-	<ThingDef ParentName="ApparelMakeableBase">
+	<ThingDef ParentName="ApparelMakeableBase" MayRequire="CETeam.CombatExtendedArmors">
 		<defName>Rosen_Armor_FragSuit</defName>
 		<label>frag suit</label>
 		<description>A bodysuit padded with armor fabrics, worn under plate carrier for protection of limbs against shrapnel.  Gloves and boots not included.</description>

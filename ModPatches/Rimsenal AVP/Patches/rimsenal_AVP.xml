@@ -13,12 +13,11 @@
 	<Operation Class="PatchOperationRemove">
 		<xpath>Defs/ThingDef[defName="Apparel_ProtectiveGear"]</xpath>
 	</Operation>
-	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ThingDef[defName="Gun_MarksmanRifle"]</xpath>
-	</Operation>
-	<Operation Class="PatchOperationRemove">
-		<success>Always</success>
-		<xpath>Defs/StyleCategoryDef/thingDefStyles/li[thingDef="Gun_MarksmanRifle"]</xpath>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Gun_MarksmanRifle"]/label</xpath>
+		<value>
+			<label>precision rifle</label>
+		</value>
 	</Operation>
 	<Operation Class="PatchOperationRemove">
 		<xpath>Defs/ThingDef[defName="Gun_RSAMRifle"]</xpath>
@@ -76,7 +75,7 @@
 			<value>
 				<costList>
 					<Steel>50</Steel>
-					<Plasteel>15</Plasteel>
+					<Plasteel>10</Plasteel>
 					<ComponentIndustrial>6</ComponentIndustrial>
 					<Chemfuel>20</Chemfuel>
 				</costList>
