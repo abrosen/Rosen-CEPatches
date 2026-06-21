@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Construction_Platform_S"]/statBases</xpath>
+        <value>
+            <MarketValue>500</MarketValue>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Construction_Platform_generator_S"]/statBases</xpath>
+        <value>
+            <MarketValue>500</MarketValue>
+        </value>
+    </Operation> 
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Construction_Platform_m"]/statBases</xpath>
+        <value>
+            <MarketValue>500</MarketValue>
+        </value>
+    </Operation> 
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Construction_Platform_generator_m"]/statBases</xpath>
+        <value>
+            <MarketValue>500</MarketValue>
+        </value>
+    </Operation> 
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Construction_Platform_l"]/statBases</xpath>
+        <value>
+            <MarketValue>500</MarketValue>
+        </value>
+    </Operation> 
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Construction_Platform_generator_l"]/statBases</xpath>
+        <value>
+            <MarketValue>500</MarketValue>
+        </value>
+    </Operation> 
+
+
+</Patch>

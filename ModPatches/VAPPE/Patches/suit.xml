@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VAE_Apparel_SuitJacket"]/statBases/StuffEffectMultiplierInsulation_Cold</xpath>
+		<value>
+			<StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VAE_Apparel_SuitJacket"]/statBases/StuffEffectMultiplierInsulation_Heat</xpath>
+		<value>
+			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+		</value>
+	</Operation>
+
+
+</Patch>

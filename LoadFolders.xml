@@ -22,5 +22,7 @@
 		<li IfModActive="kriptoner.ex1">ModPatches/Ex1</li>
 		<li IfModActive="keshash.gunvariety.tozchimera">ModPatches/TozChimera</li>
 		<li IfModActive="vanillaexpanded.varme">ModPatches/VARME</li>
+		<li IfModActive="VanillaExpanded.VAPPE">ModPatches/VAPPE</li>
+		<li IfModActive="Kuriboh.BuildingCapsule">ModPatches/BuildingCapsule</li>
     </v1.6>
 </loadFolders>
