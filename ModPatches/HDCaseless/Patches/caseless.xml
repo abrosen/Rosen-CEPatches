@@ -10,19 +10,19 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="HIDGun_ZM66AssaultRifle"]/description</xpath>
 		<value>
-			<description>A very lightweight select-fire weapon that fires up to 2100 rounds per minute. As a refinement of the principles behind the old 5.56 NATO, the 4.26mm UAC Standard round packs an incredible amount of punch for its size.  However, it is notorious for the original ZM66's tendency to cook off rounds under sustained full-auto. It is fixed in this model.</description>
+			<description>A very lightweight select-fire weapon that fires up to 2100 rounds per minute. As a refinement of the principles behind the old 5.56mm NATO, the 4.26mm UAC Standard round packs an incredible amount of punch for its size.  The original ZM66 is notorious for its tendency to cook off rounds under sustained full-auto; a defect that has been fixed in this model.</description>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="HIDGun_ZM66AssaultRifle_Semi"]/label</xpath>
 		<value>
-			<label>caseless semiautomatic rifle</label>
+			<label>caseless rifle</label>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="HIDGun_ZM66AssaultRifle_Semi"]/description</xpath>
 		<value>
-			<description>A very lightweight semiautomatic weapon. As a refinement of the principles behind the old 5.56 NATO, the 4.26mm UAC Standard round packs an incredible amount of punch for its size.</description>
+			<description>A very lightweight semiautomatic weapon. As a refinement of the principles behind the old 5.56 NATO, the 4.26mm UAC Standard round packs an incredible amount of punch for its size.  This is the civilian semiautomatic version of the ZM66.</description>
 		</value>
 	</Operation>
 		<Operation Class="PatchOperationReplace">

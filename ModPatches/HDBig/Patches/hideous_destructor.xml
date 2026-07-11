@@ -11,7 +11,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="HIDGun_LiberatorRifle"]/description</xpath>
 		<value>
-			<description>An extremely durable and reliable long-range automatic rifle chambered for a 7.76mm full-power cased round.  It is quite heavy.</description>
+			<description>An extremely durable and reliable long-range automatic rifle chambered for a 7.76mm full-power round.  It is quite heavy.</description>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
@@ -23,7 +23,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="HIDGun_LiberatorRifle_Semi"]/description</xpath>
 		<value>
-			<description>An extremely durable, almost jam-free long-range semiautomatic rifle chambered for a 7.76mm full-power cased round.  It is quite heavy.</description>
+			<description>An extremely durable and reliable long-range semiautomatic rifle chambered for a 7.76mm full-power round.  It is quite heavy.</description>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
@@ -35,7 +35,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="HIDGun_LiberatorRifle_UGL"]/description</xpath>
 		<value>
-			<description>An extremely durable, almost jam-free long-range automatic rifle chambered for a 7.76mm full-power cased round.  It is quite heavy. This model comes with an underbarrel grenade launcher.</description>
+			<description>An extremely durable and reliable long-range automatic rifle chambered for a 7.76mm full-power round. It was quite heavy even before the addition of an underbarrel grenade launcher.</description>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
@@ -47,7 +47,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="HIDGun_BossRifle"]/description</xpath>
 		<value>
-			<description>An extremely accurate, manual action rifle chambered for a 7.76mm full-power cased round.</description>
+			<description>An extremely accurate, manual action rifle chambered for a 7.76mm full-power round.  Excellent for hunters and snipers.</description>
 		</value>
 	</Operation>
 </Patch>
